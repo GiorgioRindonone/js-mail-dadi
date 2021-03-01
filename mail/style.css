@@ -2,17 +2,20 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-image: url(img/disco.jpg); */
+  
+  background-image: url(img/disco.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 
+
 }
 
 #box {
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,11 +24,11 @@
   border: 3px lightgrey solid;
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.9);
-  height: 100px;
-  width: 100px;
+  height: 40%;
+  width: 40%;
   overflow: auto;
   overflow: auto;
-  background-position: center;
+  background-position:  top;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -35,6 +38,6 @@ body {
 
 }
 
-h1, p{
+h1, p, h2{
   color: white;
 }
