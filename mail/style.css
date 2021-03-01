@@ -21,8 +21,9 @@
   border: 3px lightgrey solid;
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.9);
-  height: 40%;
-  width: 40%;
+  height: 100px;
+  width: 100px;
+  overflow: auto;
   overflow: auto;
   background-position: center;
   background-size: cover;
